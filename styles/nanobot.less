@@ -1,0 +1,41 @@
+
+/*
+	See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
+*/
+
+@import "ui-variables";
+
+.nanobot {
+	.header {
+		padding: 15px 30px;
+		font-size: 150%;
+		border-bottom: 1px solid @base-border-color;
+		background-color: @overlay-background-color;
+
+		.menu {
+			float: right;
+		}
+	}
+
+	.output {
+		max-height: 400px;
+
+		padding: 25px 30px;
+		background-color: @overlay-background-color;
+		overflow: auto;
+
+		.line {
+			display: block;
+			font-family: Menlo, Consolas, 'DejaVu Sans Mono', monospace;
+			font-size: @input-font-size;
+			background-color: transparent;
+			padding: 0;
+
+			&.info { color: @text-color; opacity: 0.45; }
+			&.error { color: @text-color-error; opacity: 0.55; }
+
+			&.stdout { color: @text-color; }
+			&.stderr { color: @text-color-error; }
+		}
+	}
+}

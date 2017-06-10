@@ -1,0 +1,27 @@
+{
+    "context-menu": {
+        "atom-text-editor": [
+            {
+                "label": "Toggle Nanobot",
+                "command": "nanobot:toggle"
+            }
+        ]
+    },
+
+    "menu": [
+        {
+            "label": "Packages",
+            "submenu": [
+                {
+                    "label": "Nanobot",
+                    "submenu": [
+                        {
+                            "label": "Toggle",
+                            "command": "nanobot:toggle"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

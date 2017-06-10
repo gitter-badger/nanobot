@@ -1,0 +1,16 @@
+{
+    "name": "nanobot",
+    "main": "./lib/nanobot",
+    "version": "0.1.0",
+    "description": "Executes a shell command for a specific project & displays the output in atom.",
+    "keywords": [
+    ],
+    "activationCommands": {
+        "atom-workspace": "nanobot:toggle"
+    },
+    "repository": "https://code.q-zero.de/code/atom-nanobot",
+    "license": "MIT",
+    "engines": {
+        "atom": ">=1.0.0 <2.0.0"
+    }
+}
