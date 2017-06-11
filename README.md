@@ -21,9 +21,13 @@ The nanobot file may contain two types of json objects:
 ```json
 {
     "command": ["your_command", "arg1", "arg2", "..."],
-    "dir": "/working/directory"
+    "dir": "/working/directory",
+    "logfile": "nanobot.log"
 }
 ```
+* **command** - The command to execute.
+* **dir** - The working directory where the command will be executed. (Optional)
+* **logfile** - Append standard & error output to a file in the command working directory. (Optional)
 
 ## Usage
 Once, you have configured nanobot for your project, open any file from your

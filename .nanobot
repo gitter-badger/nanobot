@@ -1,1 +1,4 @@
-["node", ".nanobot-example"]
+{
+	"command": ["node", ".nanobot-example"],
+	"logfile": "nanobot.log"
+}
