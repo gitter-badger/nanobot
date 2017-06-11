@@ -2,3 +2,4 @@
 npm-debug.log
 node_modules
 nanobot.log
+/node_modules/
