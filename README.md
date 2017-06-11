@@ -47,3 +47,9 @@ process with a 'SIGINT' if it's still running.
 ```js
 console.log('Hello World!')
 ```
+
+---
+
+### Hints
+Text in the output log is currently not selectable in atom, but you could use the `logfile` option
+to append the output to a file and copy text from there.
