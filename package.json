@@ -1,16 +1,15 @@
 {
-    "name": "nanobot",
-    "main": "./lib/nanobot",
-    "version": "0.0.0",
-    "description": "Nanobot is a lightweight atom package that allows simple command execution for a specific project.",
-    "keywords": [
-    ],
-    "activationCommands": {
-        "atom-workspace": "nanobot:toggle"
-    },
-    "repository": "https://github.com/MaxPolster/nanobot.git",
-    "license": "MIT",
-    "engines": {
-        "atom": ">=1.0.0 <2.0.0"
-    }
+  "name": "nanobot",
+  "main": "./lib/nanobot",
+  "version": "0.1.0",
+  "description": "Nanobot is a lightweight atom package that allows simple command execution for a specific project.",
+  "keywords": [],
+  "activationCommands": {
+    "atom-workspace": "nanobot:toggle"
+  },
+  "repository": "https://github.com/MaxPolster/nanobot.git",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
 }
