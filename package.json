@@ -1,7 +1,7 @@
 {
     "name": "nanobot",
     "main": "./lib/nanobot",
-    "version": "0.1.0",
+    "version": "0.0.0",
     "description": "Nanobot is a lightweight atom package that allows simple command execution for a specific project.",
     "keywords": [
     ],
