@@ -1,4 +1,6 @@
 # Nanobot
+
+[![Join the chat at https://gitter.im/atom-nanobot/Lobby](https://badges.gitter.im/atom-nanobot/Lobby.svg)](https://gitter.im/atom-nanobot/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 > Nanobot is a lightweight atom package that allows simple command execution for a specific project.
 
 
