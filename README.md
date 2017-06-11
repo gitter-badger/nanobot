@@ -1,4 +1,4 @@
-# Atom Nanobot (Alpha)
+# Atom Nanobot
 
 ## Installation
 First make sure, apm & git is available in your command line.
