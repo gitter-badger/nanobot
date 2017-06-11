@@ -11,8 +11,10 @@ async function main() {
 	console.log('Hello World!')
 	await wait(1)
 
-	console.log('The process will exit in 10 seconds... (with code 7)')
-	await wait(10)
+	console.log('The process will exit in 3 seconds... (with code 7)')
+	await wait(3)
+
+	console.log('Bye!');
 	process.exit(7)
 }
 

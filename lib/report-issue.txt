@@ -1,1 +1,1 @@
-https://code.q-zero.de/code/atom-nanobot/issues
+https://github.com/MaxPolster/nanobot/issues
